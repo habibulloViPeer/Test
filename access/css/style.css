@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	background-color: black;
+	align-items: center;
+}
+
+.clock {
+	width: 500px;
+	left: 50%;	
+	position: absolute;
+    top: 40%;
+    left: 30%;
+
+
+	padding: 0 50px;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 64px;
+	font-weight: 400;
+	color: aquamarine;
+	border: 2px solid aquamarine;
+	/*border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;*/
+    box-shadow: -10px 10px aquamarine; 
+    text-shadow: 2px 2px 5px aquamarine;
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+    display: flex;
+    margin: auto;
+}
